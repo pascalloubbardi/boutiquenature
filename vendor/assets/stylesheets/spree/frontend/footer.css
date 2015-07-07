@@ -1,0 +1,263 @@
+.footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 300px;
+    background: url("footer/bg.png") repeat scroll 0% 0% transparent;
+}
+
+.footer p {
+    color: #555;
+}
+
+
+
+
+#footer {
+    font-style: italic;
+    margin: 25px auto 0px;
+    padding: 20px 0px;
+}
+
+#reassurance a {
+    display: block;
+    margin: 0px auto 30px;
+    max-width: 300px;
+    padding: 15px 30px;
+    color: #999;
+    line-height: 1.2em;
+    min-height: 75px;   
+    background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.03);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    position: relative;
+}
+a {
+    color: #555;
+    text-decoration: none;
+}
+
+*:before, *:after {
+    box-sizing: border-box;
+}
+
+#reassurance #foot1 a {
+    padding-left: 114.5px;
+}
+
+#reassurance #foot1 a:before {
+    background-image: url("footer/picto_fabrication.png");
+    width: 114.5px;
+    height: 110px;
+}
+#reassurance a:before {
+    content: "";
+    display: block;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% auto;
+    left: 0px;
+    bottom: 4px;
+}
+
+
+#reassurance #foot2 a {
+    padding-left: 169.5px;
+}
+#reassurance #foot3 a {
+    padding-left: 150px;
+}
+#reassurance #foot4 a {
+    font-size: 13px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    padding-left: 113px;
+}
+#reassurance #foot5 a {
+    padding-left: 84px;
+}
+#reassurance #foot6 a {
+    padding-left: 84px;
+}
+#copyright {
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+#reassurance a:hover{
+    color:#4a4a4a
+}
+#reassurance a:hover:before{
+    background-position:center bottom
+}
+#reassurance a span{
+    display:none
+}
+#reassurance a:before{
+    content:'';
+    display:block;
+    position:absolute;
+    background-repeat:no-repeat;
+    background-position:center top;
+    background-size:100%;
+    left:0;
+    bottom:4px
+}
+#reassurance #foot1 a{
+    padding-left:114.5px
+}
+#reassurance #foot1 a:before{
+    background-image:url(http://www.archiduchesse.com/themes/axome/css/../img/picto_fabrication.png);
+    width:114.5px;height:110px
+}
+@media (max-width:767px){
+    #reassurance #foot1 a{
+        padding-left:57.25px
+    }
+    #reassurance #foot1 a:before{
+        width:57.25px;height:55px
+    }
+}
+@media (max-width:490px){
+    #reassurance #foot1 a{
+        padding-top:63px
+    }
+    #reassurance #foot1 a:before{
+        left:50%;margin-left:-28.625px
+    }
+}
+#reassurance #foot2 a{
+    padding-left:169.5px
+}
+#reassurance #foot2 a:before{
+    background-image:url(http://www.archiduchesse.com/themes/axome/css/../img/picto_paypal.png);
+    width:169.5px;height:85px
+}
+@media (max-width:767px){
+    #reassurance #foot2 a{
+        padding-left:84.75px}
+    #reassurance #foot2 a:before{
+        width:84.75px;height:42.5px
+    }
+}
+@media (max-width:490px){
+    #reassurance #foot2 a{
+        padding-top:50.5px
+    }
+    #reassurance #foot2 a:before{
+        left:50%;margin-left:-42.375px
+    }
+}
+#reassurance #foot3 a{
+    padding-left:150px
+}
+#reassurance #foot3 a:before{
+    background-image:url(http://www.archiduchesse.com/themes/axome/css/../img/picto_livraison.png);
+    width:150px;height:84px
+}
+@media (max-width:767px){
+    #reassurance #foot3 a{
+        padding-left:75px
+    }
+    #reassurance #foot3 a:before{
+        width:75px;height:42px
+    }
+}
+@media (max-width:490px){
+    #reassurance #foot3 a{
+        padding-top:50px
+    }
+    #reassurance #foot3 a:before{
+        left:50%;margin-left:-37.5px
+    }
+}
+#reassurance #foot4 a{
+    font-size:13px;
+    padding-top:12px;
+    padding-bottom:10px;
+    padding-left:113px
+}
+#reassurance #foot4 a:before{
+    background-image:url(http://www.archiduchesse.com/themes/axome/css/../img/picto_adresse.png);
+    width:113px;
+    height:115px
+}
+@media (max-width:767px){
+    #reassurance #foot4 a{
+        padding-left:56.5px}
+    #reassurance #foot4 a:before{
+        width:56.5px;height:57.5px
+    }
+}
+@media (max-width:490px){
+    #reassurance #foot4 a{
+        padding-top:65.5px
+    }
+    #reassurance #foot4 a:before{
+        left:50%;margin-left:-28.25px
+    }
+}
+#reassurance #foot5 a{
+    padding-left:84px
+}
+#reassurance #foot5 a:before{
+    background-image:url(http://www.archiduchesse.com/themes/axome/css/../img/picto_facebook.png);
+    width:84px;height:84px
+}
+@media (max-width:767px){
+    #reassurance #foot5 a{
+        padding-left:42px
+    }
+    #reassurance #foot5 a:before{
+        width:42px;height:42px
+    }
+}
+@media (max-width:490px){
+    #reassurance #foot5 a{
+        padding-top:50px
+    }
+    #reassurance #foot5 a:before{
+        left:50%;margin-left:-21px
+    }
+}
+#reassurance #foot6 a{
+    padding-left:84px
+}
+#reassurance #foot6 a:before{
+    background-image:url(http://www.archiduchesse.com/themes/axome/css/../img/picto_twitter.png);
+    width:84px;height:84px
+}
+@media (max-width:767px){
+    #reassurance #foot6 a{
+        padding-left:42px
+    }
+    #reassurance #foot6 a:before{
+        width:42px;height:42px
+    }
+}
+@media (max-width:490px){
+    #reassurance #foot6 a{
+        padding-top:50px
+    }
+    #reassurance #foot6 a:before{
+        left:50%;margin-left:-21px
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
