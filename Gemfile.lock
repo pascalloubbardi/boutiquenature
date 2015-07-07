@@ -12,6 +12,14 @@ GIT
       spree_core (~> 3.0.0)
 
 GIT
+  remote: git://github.com/spree-contrib/spree_slider.git
+  revision: 9203b6f250016486e75e92e14e5618629ab38fbd
+  specs:
+    spree_slider (1.2.0)
+      spree_backend (>= 3.0.0.beta)
+      spree_core (>= 3.0.0.beta)
+
+GIT
   remote: git://github.com/spree/spree_auth_devise.git
   revision: b554f307e5aa887110a70d54f8967c284f881375
   branch: 3-0-stable
@@ -375,6 +383,7 @@ DEPENDENCIES
   spree_gateway!
   spree_i18n!
   spree_simple_sales!
+  spree_slider!
   spring
   sqlite3
   turbolinks

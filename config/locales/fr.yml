@@ -1207,6 +1207,7 @@ fr:
     special_instructions: Instructions spéciales
     split: Diviser
     spree_gateway_error_flash_for_checkout: Il y a eu un problème avec vos informations de paiement. Merci de bien vouloir les vérifier et de réessayer.
+    spree_slider: Spree slider
     ssl:
       change_protocol:
     start: Départ

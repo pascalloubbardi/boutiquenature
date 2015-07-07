@@ -774,7 +774,7 @@ fr:
     login_as_existing: Commander en tant que client existant
     login_failed: L'authentification a échoué
     login_name: Identifiant
-    logout: Se déconnecter
+    logout: Déconnexion
     logs: Journal
     look_for_similar_items: Rechercher des articles similaires
     make_refund: Effectuer un remboursement
@@ -1207,6 +1207,7 @@ fr:
     special_instructions: Instructions spéciales
     split: Diviser
     spree_gateway_error_flash_for_checkout: Il y a eu un problème avec vos informations de paiement. Merci de bien vouloir les vérifier et de réessayer.
+    slides: Spree slider
     ssl:
       change_protocol:
     start: Départ
