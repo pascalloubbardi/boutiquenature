@@ -1,4 +1,15 @@
 fr:
+  number:
+    # Used in number_to_currency()
+    currency:
+      format:
+        # Where is the currency sign? %u is the currency unit, %n the number (default: $5.00)
+        format: "%n %u"
+        unit: "€"
+        # These three are to override number.format and are optional
+        separator: ","
+        delimiter: " "
+        precision: 2
   activerecord:
     attributes:
       spree/address:
