@@ -1248,6 +1248,7 @@ fr:
     states: Régions
     states_required: Etat / province obligatoire
     status: Statut
+    selected_quantity_not_available: non disponible
     stock:
     stock_location: Emplacement de stock
     stock_location_info: Informations sur l'emplacement de stock
