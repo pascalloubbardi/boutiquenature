@@ -50,6 +50,9 @@ gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '3-0-stable'
 
 gem 'spree_i18n', github: 'spree-contrib/spree_i18n', branch: '3-0-stable'
 gem 'spree_slider', github: 'spree-contrib/spree_slider'
+gem 'spree_static_content', github: 'spree-contrib/spree_static_content', branch: '3-0-stable'
+gem 'spree_editor', github: 'spree-contrib/spree_editor', branch: '3-0-stable'
+gem 'tinymce-rails-langs'
 
   #gem perso
 

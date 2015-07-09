@@ -33,7 +33,7 @@ Deface::Override.new(:virtual_path => "spree/layouts/spree_application",
                                </p>
                              </div>
                              <div class='col-sm-6'>
-                             <a href='http://vosdroits.service-public.fr/professionnels-entreprises/F31228.xhtml' style='float:right'>Mentions l&eacute;gales</a>
+                               <a href='http://localhost:3000/mentionlegales' style='float:right'>Mentions l&eacute;gales</a>
                              </div>
                            </div>
                          </div>
