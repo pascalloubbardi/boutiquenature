@@ -41,46 +41,24 @@ Deface::Override.new(:virtual_path => "spree/shared/_main_nav_bar",
         </ul>
       </li>
 
-      <% @taxonomies.each do |taxonomy| %> 
+      <% Spree::Taxonomy.includes(root: :children).each do |taxonomy| %> 
       <li class='dropdown menu-large'>
         <a href='#' class='dropdown-toggle' data-toggle='dropdown'>
           <%= taxonomy.name %> <b class='caret'></b>
         </a>
             <ul class='dropdown-menu megamenu row'>
-                 <% @taxons.each do |taxon| %>
+                
               <li class='col-sm-3'>
-                <ul>  
+                <ul> <% taxonomy.root.children.each do |taxon| %>  
                   <li class='dropdown-header'>
-                     
+                                               
                     <%= link_to taxon.name, seo_url(taxon) %>
-                    
-                  </li>
-                  <li>
-                    
-                  </li>
-                  <li>
-                    <a href='#'>
-                      Button toolbar
-                    </a>
-                  </li>
-                  <li>
-                    <a href='#'>
-                      Sizing
-                    </a>
-                  </li>
-                  <li>
-                    <a href='#'>
-                      Nesting
-                    </a>
-                  </li>
-                  <li>
-                    <a href='#'>
-                      Vertical variation
-                    </a>
-                  </li>
+
+                  </li><% end %>
+                  
                 </ul>
               </li>
-             <% end %> 
+              
            </ul>
           <% end %>
         </li>
@@ -98,5 +76,6 @@ Deface::Override.new(:virtual_path => "spree/shared/_main_nav_bar",
     </div>
   </div>
 </div>                     
-
+<script src='js/jquery.min.js'></script>
+<script src='js/bootstrap.min.js'></script>
 ")

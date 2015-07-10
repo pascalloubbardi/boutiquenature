@@ -1,6 +1,6 @@
 #logo {
   font-size: 32px;
-  color: rgba(138, 194, 73, 1);
+  color: green;
 }
 #logo a:hover {
   text-decoration: none;

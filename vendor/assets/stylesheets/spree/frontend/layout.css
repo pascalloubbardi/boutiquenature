@@ -21,7 +21,7 @@
     background-color: rgba(138, 194, 73, 1);
     margin-bottom: 20px;
 }
-
+/*
 .navbar-nav > li a {
     background-color: rgba(138, 194, 73, 1);
     float: left;
@@ -32,7 +32,7 @@ li > a:focus, .pagination > li > span:hover, .pagination > li > span:focus {
     color: green;
     background-color: green;
     border-color: #DDD;
-}
+}*/
 .pagination > .active > a{
     z-index: 2;
     color: #FFF;

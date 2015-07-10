@@ -1,25 +1,42 @@
+#spree-header .nav a:hover, #spree-header .nav a:focus {
+    background-color: #008000
+}
 .navbar-default{
 color: #fff;
 background-color: #8AC249;
 border-color: #269abc;
 }
-.navbar-default .navbar-nav > li > a{
-color:#fff;
-}
-.navbar-default .navbar-nav > .dropdown > a .caret{
-border-top-color: #fff;
-    border-bottom-color: #fff;
-}
 .navbar-default .navbar-brand{
 color:#fff;
+}
+.navbar-default .navbar-brand:hover{
+color: #008000;
 }
 .menu-large {
   position: static !important;
 }
+.open {
+  background-color: #008000    
+}
 .megamenu{
   padding: 20px 0px;
   width:100%;
+  background-color: #008000
 }
+
+.dropdown-header {
+  color: #428bca;
+  font-size: 18px;
+}
+
+/*
+.navbar-default .navbar-nav > .dropdown > a .caret{
+border-top-color: #fff;
+    border-bottom-color: #fff;
+}
+
+
+
 .megamenu> li > ul {
   padding: 0;
   margin: 0;
@@ -59,6 +76,10 @@ color:#fff;
   color: #428bca;
   font-size: 18px;
 }
+.megamenu.dropdown-header a {
+  color: #666;
+  font-size: 18px;
+}
 @media (max-width: 768px) {
   .megamenu{
     margin-left: 0 ;
@@ -83,7 +104,7 @@ color:#fff;
     background-color: #fff;
     float: left;
 }
-
+*/
 
 
 
