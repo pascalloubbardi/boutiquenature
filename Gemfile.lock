@@ -10,7 +10,7 @@ GIT
 
 GIT
   remote: git://github.com/spree-contrib/spree_i18n.git
-  revision: 215e974ed49ff7a3e2e21e3a531af40bd334bc31
+  revision: 5993c0314c5a0c9c8562eec144d42c1222f04fe0
   branch: 3-0-stable
   specs:
     spree_i18n (3.0.0)
@@ -51,7 +51,7 @@ GIT
 
 GIT
   remote: git://github.com/spree/spree_gateway.git
-  revision: fc1940d30748876a16be81149178b898c5562d23
+  revision: 7301dc7c84c05b46427bf5003eda13ca64a48d7c
   branch: 3-0-stable
   specs:
     spree_gateway (3.0.0.beta)
@@ -110,7 +110,7 @@ GEM
     acts_as_list (0.7.2)
       activerecord (>= 3.0)
     addressable (2.3.8)
-    arel (6.0.0)
+    arel (6.0.1)
     autoprefixer-rails (5.2.1)
       execjs
       json
@@ -386,7 +386,7 @@ GEM
       tzinfo
     warden (1.2.3)
       rack (>= 1.0)
-    web-console (2.1.3)
+    web-console (2.2.1)
       activemodel (>= 4.0)
       binding_of_caller (>= 0.7.2)
       railties (>= 4.0)
