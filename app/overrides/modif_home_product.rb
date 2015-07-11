@@ -20,7 +20,8 @@ Deface::Override.new(
              
 <br>
               
-               <% @products.where('spree_variants.sale_price is not null').uniq.each do |product| %>
+               <% @products.where('spree_variants.sale_price is not null').uniq.first(2).each do |product| %>
+               
                <ul class='list-group'>
 
                <% url = spree.product_url(product, taxon_id: @taxon.try(:id)) %>
@@ -37,7 +38,6 @@ Deface::Override.new(
               </span>
             </div>
           <% end %>
-        
       </li>
       </ul>
 
