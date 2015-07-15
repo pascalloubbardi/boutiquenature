@@ -1,0 +1,16 @@
+.styled-select {
+   width: 140px;
+   height: 44px;
+   overflow: hidden;
+   background: url(new_arrow.png) no-repeat right #60BB44;
+   border: 1px solid #ccc;
+   color:#fff;
+   }
+
+.carousel-inner {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    line-height: 1;
+    margin-bottom:20px;
+}

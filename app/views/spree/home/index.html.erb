@@ -4,7 +4,45 @@
   </div>
 <% end %>
 
+
+
+
 <div data-hook="homepage_products">
+  <div id="banner1" class="banner row">
+    <div class="col-sm-4">
+      <a href="index.php?route=product/product&amp;product_id=32">
+        <img src="http://livedemo00.template-help.com/opencart_50870/image/cache/data/banner1-268x268.jpg" alt="banner-1" title="banner-1">
+          <div class="s-desc">
+            <h1>  
+              <span>Herbal</span> Supplements
+            </h1>
+              <span>Shop now!</span>
+          </div>
+      </a>
+  </div>
+  <div class="col-sm-4">
+    <a href="index.php?route=product/product&amp;product_id=29">
+      <img src="http://livedemo00.template-help.com/opencart_50870/image/cache/data/banner2-268x268.jpg" alt="banner-2" title="banner-2">
+        <div class="s-desc"><h1><span>Vitamins</span></h1>
+          <span>Shop now!</span>
+        </div>
+    </a>
+  </div>
+  <div class="col-sm-4">
+    <a href="index.php?route=product/product&amp;product_id=28">
+      <img src="http://livedemo00.template-help.com/opencart_50870/image/cache/data/banner3-268x268.jpg" alt="banner-3" title="banner-3">
+        <div class="s-desc"><h1><span>Sports</span> Nutrition</h1>
+          <span>Shop now!</span></div>
+    </a>
+  </div>
+</div>
+
+  <div class="box featured">
+    <div class="box-heading">
+     Nos Articles 
+    </div>
+</div>
+
   <% cache(cache_key_for_products) do %>
     <%= render :partial => 'spree/shared/products', :locals => { :products => @products } %>
   <% end %>
