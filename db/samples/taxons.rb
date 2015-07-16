@@ -12,6 +12,8 @@ products = {
   :articulation_5 => "Curcuma Articulations 60 comprimés",
   :articulation_6 => "Curcuma Extrait Fluide 300 ml AB",
   :articulation_7 => "Extrait de Plante Fraiche Cassis 50ml AB",
+  :articulation_8 => "Calcium forte 75 comp",
+  :articulation_9 => "Peau cheveux & ongles 45 cap",
 }
 
 
@@ -38,6 +40,7 @@ taxons = [
       products[:articulation_5],
       products[:articulation_6],
       products[:articulation_7],
+      products[:articulation_8],
     ]
   },
   {
@@ -46,6 +49,7 @@ taxons = [
     :parent => "Categories",
     :position => 2,
     :products => [
+      products[:articulation_9],
     ]
   },
   {

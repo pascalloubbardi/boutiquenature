@@ -9,6 +9,8 @@ products[:calcium_marin_40] = Spree::Product.find_by_name!("Calcium Marin 40 gé
 products[:curcuma_articulations_60] = Spree::Product.find_by_name!("Curcuma Articulations 60 comprimés")
 products[:curcuma_extrait_fluide_300] = Spree::Product.find_by_name!("Curcuma Extrait Fluide 300 ml AB")
 products[:extrait_de_plante_fraiche_cassis_50ml] = Spree::Product.find_by_name!("Extrait de Plante Fraiche Cassis 50ml AB")
+products[:calcium_forte_75_comp] = Spree::Product.find_by_name!("Calcium forte 75 comp")
+products[:peau_cheveux_ongles_45_cap] = Spree::Product.find_by_name!("Peau cheveux & ongles 45 cap")
 
 
 def image(name, type="jpeg")
@@ -54,7 +56,19 @@ images = {
       :attachment => image("EPFCassisAB")
     }
   ],
+    products[:calcium_forte_75_comp].master => [
+    {
+      :attachment => image("calcium-forte-tab_171079")
+    }
+  ],
+  products[:peau_cheveux_ongles_45_cap].master => [
+    {
+      :attachment => image("calcium-forte-tab_171079")
+    }
+  ],
+
 }
+
 
 
 products[:calcium_marin_100].variants.each do |variant|

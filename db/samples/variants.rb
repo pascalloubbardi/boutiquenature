@@ -8,6 +8,8 @@ Spree::Sample.load_sample("products")
   curcuma_articulations_60 = Spree::Product.find_by_name!("Curcuma Articulations 60 comprimés")
   curcuma_extrait_fluide_300 = Spree::Product.find_by_name!("Curcuma Extrait Fluide 300 ml AB")
   extrait_de_plante_fraiche_cassis_50ml = Spree::Product.find_by_name!("Extrait de Plante Fraiche Cassis 50ml AB")
+  calcium_forte_75_comp = Spree::Product.find_by_name!("Calcium forte 75 comp")
+  peau_cheveux_ongles_45_cap = Spree::Product.find_by_name!("Peau cheveux & ongles 45 cap")
 
   gelule1 = Spree::OptionValue.where(name: "gelule1").first
   gelule2 = Spree::OptionValue.where(name: "gelule2").first
@@ -49,6 +51,14 @@ masters = {
   extrait_de_plante_fraiche_cassis_50ml => {
     :sku => "ROR-00016",
     :cost_price => 8.95
+  },
+  calcium_forte_75_comp => {
+    :sku => "ROR-00018",
+    :cost_price => 2.75
+  },
+  peau_cheveux_ongles_45_cap => {
+    :sku => "ROR-00019",
+    :cost_price => 3.75
   },
 }
 

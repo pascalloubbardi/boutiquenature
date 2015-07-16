@@ -260,6 +260,74 @@ Avertissement: D&eacute;conseill&eacute; aux femmes enceintes et allaitantes et 
 </table>
 
 ',
+  },
+    {
+    :name => "Calcium forte 75 comp",
+    :tax_category => complementalimentaire,
+    :shipping_category => shipping_category,
+    :price => 6.74,
+    :eur_price => 6.74,
+    :description => '
+
+<h2>Description</h2>
+<p>
+Le calcium et la vitamine D sont nécessaires au maintien d’une ossature et d’une dentition normales. Chez les enfants aussi, ils assurent une croissance et un développement normaux du système osseux. La vitamine D contribue à l’absorption du calcium.
+</p>
+<h3>Emploi</h3>
+<p>Adultes et enfants à partir de 12 ans : 6 comprimés par jour ; 3 le midi et 3 le soir. A prendre avec un peu d’eau ou de jus de fruits pendant les repas.</p>
+<br>
+<h3>Composition</h3>
+<p>Composition pour 6 comprimés
+<br>
+Calcium (100%*) 800 mg
+Vitamine D (150%*) 7,5 &micro;g
+<br>
+* = AR : Apport de Référence</p>
+<h3>Ingrédients</h3>
+<p>
+Citrate de calcium ; agents de charge : cellulose ; agents d&acute;enrobage : hydroxypropylcellulose, hydroxypropylm&eacute;thylcellulose, st&eacute;arate de magn&eacute;sium, talc, triglyc&eacute;ride ; antiagglom&eacute;rant : dioxyde de silicium ; colorant : dioxyde de titane ; chol&eacute;calicf&eacute;rol.
+</p>
+',
+  },
+{
+    :name => "Peau cheveux & ongles 45 cap",
+    :tax_category => complementalimentaire,
+    :shipping_category => shipping_category,
+    :price => 10.95,
+    :eur_price => 10.95,
+    :description => '
+
+<h2>Description</h2>
+<p>
+Biover Peau, cheveux & ongles contient des substances nutritives naturelles de premi&egrave;re importance comme la biotine et le zinc qui contribuent au maintien d&acute;une peau et d&acute;une chevelure normales. Le zinc aide &eacute;galement &agrave; prot&eacute;ger les cellules contre le stress oxydatif. La vitamine B6 contribue au m&eacute;tabolisme normal des prot&eacute;ines. A utiliser en cas de chute ou de d&eacute;coloration des cheveux et en cas de cheveux ternes et fragiles.
+</p>
+<h3>Emploi</h3>
+<p>Adultes : 2 à 3 capsules par jour. A prendre avec un peu d&acute;eau ou de jus de fruits.</p>
+<br>
+<h3>Composition</h3>
+<p>Composition pour 3 capsules
+<br>
+Equisetum arvense extr. 300 mg<br>
+Lithothamnium calcareum 100 mg<br>
+L-cystine 200 mg<br>
+L-cystéine 100 mg<br>
+L-méthionine 450 mg<br>
+Vitamine B1 (127%*) 1,4 mg<br>
+Vitamine B2 (114%*) 1,6 mg<br>
+Vitamine B3 (112,5%*) 18 mg<br>
+Vitamine B5 (100%*) 6 mg<br>
+Vitamine B6 (143%*) 2 mg<br>
+Vitamine B12 (40%*) 1 &micro;g<br>
+Biotine (300%*) 150 &micro;g<br>
+Zinc (150%*) 15 mg
+Acide folique (100%*) 200 &micro;g
+<br>
+* = AR : Apport de Référence</p>
+<h3>Ingrédients</h3>
+<p>
+L-méthionine ; prêle des champs (18%) ; gélifiant : hydroxypropylméthylcellulose ; L-cystine ; L-cystéine chlorhydrate ; lithothamne (crustacés) (6%) ; citrate de zinc ; antiagglomérants : hydroxypropylméthylcellulose, dioxyde de silicium ; agent d’enrobage : stéarate de magnésium ; nicotinamide ; agents de charge : cellulose, orthophosphate de calcium ; pantothénate de calcium ; colorants : dioxyde de titane, cuivre-chlorophylline ; chlorhydrate de pyridoxine ; mononitrate de thiamine ; riboflavine ; cyanocobalamine ; acide ptéroylmonoglutamique ; biotine.
+</p>
+',
   }
 ]
 

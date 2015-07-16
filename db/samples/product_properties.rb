@@ -19,21 +19,21 @@ products =
     {
       "Laboratoir" => "Biotechnie",
       "Origine" => "Biologique",
-      "Forme" => "Gélule",
+      "Forme" => "Gélules",
       "Gamme" => "Nutrithérapie"
     },
     "Calcium Marin 40 gélules" =>
     {
       "Laboratoir" => "Biotechnie",
       "Origine" => "Biologique",
-      "Forme" => "Gélule",
+      "Forme" => "Gélules",
       "Gamme" => "Nutrithérapie"
     },
     "Curcuma Articulations 60 comprimés" =>
     {
       "Laboratoir" => "Biotechnie",
       "Origine" => "Biologique",
-      "Forme" => "Comprimé",
+      "Forme" => "Comprimés",
       "Gamme" => "Nutrithérapie"
     },
     "Curcuma Extrait Fluide 300 ml AB" =>
@@ -49,6 +49,20 @@ products =
       "Origine" => "Biologique",
       "Forme" => "Solution",
       "Gamme" => "Pleine Nature"
+    },
+    "Calcium forte 75 comp" =>
+    {
+      "Laboratoir" => "Biover",
+      "Origine" => "Biologique",
+      "Forme" => "Comprim&eacute;s",
+      "Gamme" => "Nutrithérapie"
+    },
+    "Peau cheveux & ongles 45 cap" =>
+    {
+      "Laboratoir" => "Biover",
+      "Origine" => "Non-biologique",
+      "Forme" => "Capsules",
+      "Gamme" => "Nutrithérapie"
     },
 }
 
