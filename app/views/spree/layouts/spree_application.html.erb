@@ -87,7 +87,13 @@ $<i class="fa fa-angle-down"></i>
 Commandez par t&eacute;l&eacute;phone! <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span> 01.02.03.04.05
 </div>
 <ul class="links">
-<li><a href="http://livedemo00.template-help.com/opencart_50870/index.php?route=account/register"><i class="fa fa-user"></i>Create an account</a></li><li class="login_h"><a href="http://livedemo00.template-help.com/opencart_50870/index.php?route=account/login"><i class="fa fa-lock"></i>Login</a></li> </ul>
+<% if spree_current_user %>
+<li><span class="glyphicon glyphicon-user" aria-hidden="true"></span> <%= link_to Spree.t(:my_account), spree.account_path %></li>
+<li><span class="glyphicon glyphicon-log-out" aria-hidden="true"></span> <%= link_to Spree.t(:logout), spree.logout_path %></li>
+<% else %>
+<li id="link-to-login"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> <%= link_to Spree.t(:login), spree.login_path %></li>
+<% end %>
+</ul>
 <div class="clear"></div>
 </div>
 </div>
@@ -231,8 +237,17 @@ Commandez par t&eacute;l&eacute;phone! <span class="glyphicon glyphicon-phone-al
 <ul class="links">
 <li class="first"><%= link_to spree.root_path, class: 'active' do %><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Accueil<% end %></li>
 <li><a class="" href="http://livedemo00.template-help.com/opencart_50870/index.php?route=account/wishlist" id="wishlist-total"><span class="glyphicon glyphicon-star" aria-hidden="true"></span> Wish List (0)</a></li>
-<li><a class="" href="http://livedemo00.template-help.com/opencart_50870/index.php?route=account/account"><i class="fa fa-user"></i>My Account</a></li>
-<li class="last"><%= link_to 'Mon Panier', '/cart' %><a class="" href="http://livedemo00.template-help.com/opencart_50870/index.php?route=checkout/cart"><i class="fa fa-shopping-cart"></i>Shopping Cart</a></li>
+
+<% if spree_current_user %>
+<li><%= link_to spree.account_path do %><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Mon Compte<% end %></li>
+<li><%= link_to spree.logout_path do %><span class="glyphicon glyphicon-log-out" aria-hidden="true"></span> D&eacute;connexion<% end %></li>
+<% else %>
+<li><%= link_to spree.login_path do %><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Connexion<% end %></li>
+<% end %>
+
+<li>
+  <%= link_to  '/cart' do %><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Mon Panier<% end %>
+</li>
 </ul>
 </div>
 </div>

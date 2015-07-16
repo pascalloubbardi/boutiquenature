@@ -37,6 +37,131 @@
   </div>
 </div>
 
+
+<div class="box featured">
+<div class="box-heading">Featured products</div>
+<div class="box-content">
+<div class="box-product">
+<ul class="row">
+
+<% @products.where('spree_variants.sale_price is not null').uniq.first(3).each do |product| %>
+<% url = spree.product_url(product, taxon_id: @taxon.try(:id)) %>
+<% cache(@taxon.present? ? [I18n.locale, current_currency, @taxon, product] : [I18n.locale, current_currency, product]) do %>
+<li class="last-in-line col-sm-4" id='product_<%= product.id %>'>
+<script type="text/javascript">
+				$(document).ready(function(){
+					$("a.colorbox3").colorbox({
+					rel: 'colorbox',
+					inline:true,
+					html: true,
+					width:'58%',
+					maxWidth:'780px',
+					height:'70%',
+					open:false,
+					returnFocus:false,
+					fixed: true,
+					title: false,
+					href:'.quick-view3',
+					current:'Product {current} of {total} '
+					});
+					});
+				</script>
+<div class="padding">
+ 
+<div class="product_image image2">
+<%= link_to small_image(product, itemprop: 'image'), url, itemprop: 'url' %>
+</div>
+ 
+<div style="display:none;">
+<div class="quick-view3 preview">
+<div class="wrapper marg row">
+<div class="left col-sm-4">
+<div class="product_image image3">
+<a href="http://livedemo00.template-help.com/opencart_50870/index.php?route=product/product&amp;product_id=29"><img src="http://livedemo00.template-help.com/opencart_50870/image/cache/data/Natural-Amino1-270x270.png" alt="Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim "></a>
+</div>
+</div>
+<div class="right col-sm-8"><h2>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim </h2>
+<div class="inf">
+<span class="product_manufacture manufacture">Brand: <a href="http://livedemo00.template-help.com/opencart_50870/index.php?route=product/manufacturer/info&amp;manufacturer_id=6">Donec a dolor</a></span>
+<span class="product_model model">Model:Product 2</span>
+<span class="product_stock prod-stock-2">Availability:</span>
+<span class="product_stock prod-stock">In Stock</span>
+<div class="product_price price">
+<span class="text-price">Price: </span>
+$25.89
+</div>
+</div>
+<div class="product_button cart-button">
+<div class="cart">
+<a title="Add to cart" data-id="29;" class="button addToCart-1 "><span>
+Add to cart </span></a>
+</div>
+<div class="wishlist_btn wishlist">
+<a data-original-title="Add to Wish List" class="tooltip-1" title="" onclick="addToWishList('29');">
+<i class="fa fa-star"></i>
+<span>Add to Wish List</span>
+</a>
+</div>
+<div class="compare_btn compare">
+<a data-original-title="Add to Compare" class="tooltip-1" title="" onclick="addToCompare('29');">
+<i class="fa fa-bar-chart-o"></i>
+<span>Add to Compare</span>
+</a>
+</div>
+<span class="clear"></span>
+</div>
+<div class="clear"></div>
+<div class="product_rating rating">
+<img src="catalog/view/theme/theme442/image/stars-0.png" alt="0" height="18">
+</div>
+</div>
+</div>
+<div class="product_description description">
+<p> <strong>Health</strong> is one of most important things in our life. We think that it is a real luck to have a strong health. Our way of life doesn’t increase the physiological condition of our body. Alcohol, cigarettes, unhealthy food, stresses and other factors have a great influence on our health. The human’s immune system is very uncertain thing because there is a countless quantity of different dangerous viruses and bacteria.</p>
+<p>It is very noble activity to protect health and help people recover. Our main goal is to find the easiest way of treatment. Our company states that our goods are of premium quality. This product is totally safe for your health. It has passed many various <strong>tests</strong> without a single failure. It is really a product of a new generation.</p>
+<p>Well, if you are ready to purchase our goods we will help you to make a right choice. If you have some questions, you can address our <strong>support system</strong>.</p>
+</div>
+</div>
+</div>
+<a href="http://livedemo00.template-help.com/opencart_50870/index.php?route=product/product&amp;product_id=29" class="colorbox3 quick-view-button cboxElement"><i class=" fa fa-search "></i></a>
+<div class="inner">
+<div class="f-left">
+ 
+<div class="product_price price">
+<%= display_price(product) %> </div>
+ 
+<div style="height: 60px;" class="product_name name maxheight-feat"><h2><%= link_to truncate(product.name, length: 30), url, class: 'info', itemprop: 'name', title: product.name %></h2></div>
+</div>
+ 
+<div class="product_button cart-button">
+<div class="cart">
+<a title="Add to cart" data-id="29;" class="button addToCart"><span>
+Add to cart </span></a>
+</div>
+<span class="clear"></span>
+</div>
+<div class="clear"></div>
+ 
+</div>
+<div class="clear"></div>
+</div>
+</li>
+<% end %><% end %>
+</li>
+</ul>
+
+
+
+
+</div>
+<div class="clear"></div>
+</div>
+</div>
+
+
+
+
+
   <div class="box featured">
     <div class="box-heading">
      Nos Articles 
