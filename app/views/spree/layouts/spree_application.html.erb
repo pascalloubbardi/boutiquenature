@@ -140,11 +140,6 @@ Commandez par t&eacute;l&eacute;phone! <span class="glyphicon glyphicon-phone-al
 </div>
 
 
-<% if spree_current_user %>
-<%= link_to Spree.t(:logout), spree.logout_path, class: 'checkout-button' %></li>
-<% else %>
-<%= link_to Spree.t(:login), spree.login_path, class: 'checkout-button' %>
-<% end %>
  
 <div id="search">
   <div class="inner"> 
@@ -236,7 +231,6 @@ Commandez par t&eacute;l&eacute;phone! <span class="glyphicon glyphicon-phone-al
 
 <ul class="links">
 <li class="first"><%= link_to spree.root_path, class: 'active' do %><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Accueil<% end %></li>
-<li><a class="" href="http://livedemo00.template-help.com/opencart_50870/index.php?route=account/wishlist" id="wishlist-total"><span class="glyphicon glyphicon-star" aria-hidden="true"></span> Wish List (0)</a></li>
 
 <% if spree_current_user %>
 <li><%= link_to spree.account_path do %><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Mon Compte<% end %></li>
@@ -248,6 +242,14 @@ Commandez par t&eacute;l&eacute;phone! <span class="glyphicon glyphicon-phone-al
 <li>
   <%= link_to  '/cart' do %><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Mon Panier<% end %>
 </li>
+<li>
+<% @taxonomies.each do |taxonomy| %>  
+    
+      <%= link_to seo_url(taxonomy.root) do %><span class="glyphicon glyphicon-tags" aria-hidden="true"></span>&nbsp; <%= taxonomy.name %><% end %>
+
+<% end %>
+</li>
+
 </ul>
 </div>
 </div>

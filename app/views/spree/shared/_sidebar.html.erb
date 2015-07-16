@@ -11,7 +11,7 @@
         <% taxonomy.root.children.each do |taxon| %>
         <li class="cat-header "> 
           <%= link_to seo_url(taxon) do %>
-          <span class="glyphicon glyphicon-leaf" aria-hidden="true"></span>&nbsp;&nbsp;<%= taxon.name %>
+          <span class="glyphicon glyphicon-leaf" aria-hidden="true" style="color:#60BB44"></span>&nbsp;&nbsp;<%= taxon.name %>
           <% end %>
         </li>
         <% end %>
